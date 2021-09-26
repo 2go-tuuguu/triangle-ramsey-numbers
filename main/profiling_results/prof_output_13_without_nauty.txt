@@ -1,0 +1,62 @@
+         1027274053 function calls (962768512 primitive calls) in 236.147 seconds
+
+   Ordered by: cumulative time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.211    0.211  236.147  236.147 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:191(main)
+78207/6138    3.031    0.000  235.615    0.038 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:126(find_e)
+   247642    6.309    0.000  125.990    0.001 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:57(has_ind_set_k)
+    75433    2.196    0.000  106.583    0.001 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:99(get_all_one_edge_removed)
+  1229204    2.147    0.000  102.054    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1462(copy)
+64681101/247629   65.609    0.000   87.675    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:24(choose_sublists)
+  1229204   41.253    0.000   69.641    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:895(add_edges_from)
+ 29808078   19.042    0.000   31.680    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:40(check_for_ind)
+  1229204   21.032    0.000   28.502    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:526(add_nodes_from)
+ 47162688   11.798    0.000   15.177    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1545(<genexpr>)
+135817764   13.330    0.000   13.330    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1173(has_edge)
+264270494   11.601    0.000   11.601    0.000 {method 'append' of 'list' objects}
+126642604   11.415    0.000   11.415    0.000 {method 'update' of 'dict' objects}
+111213532    4.640    0.000    4.640    0.000 {built-in method builtins.len}
+ 64433472    4.393    0.000    4.393    0.000 {method 'extend' of 'list' objects}
+ 77003528    4.201    0.000    4.201    0.000 {method 'copy' of 'dict' objects}
+ 16764226    2.937    0.000    3.852    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1543(<genexpr>)
+ 15117579    3.612    0.000    3.612    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:30(<listcomp>)
+ 47179994    3.110    0.000    3.110    0.000 {method 'get' of 'dict' objects}
+  1229878    1.306    0.000    1.431    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:289(__init__)
+  1246510    0.946    0.000    1.151    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:827(add_edge)
+ 17993430    1.092    0.000    1.092    0.000 {method 'items' of 'dict' objects}
+  1229204    0.338    0.000    0.338    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:990(remove_edge)
+    25464    0.040    0.000    0.197    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:170(printProgressBar)
+   247642    0.139    0.000    0.189    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:661(nodes)
+    25465    0.144    0.000    0.144    0.000 {built-in method builtins.print}
+   247642    0.065    0.000    0.104    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:184(__iter__)
+     6138    0.015    0.000    0.089    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1768(size)
+     6138    0.011    0.000    0.057    0.000 {built-in method builtins.sum}
+   247642    0.050    0.000    0.050    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:177(__init__)
+    82054    0.017    0.000    0.046    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1804(<genexpr>)
+   247642    0.039    0.000    0.039    0.000 {built-in method builtins.iter}
+    82054    0.025    0.000    0.029    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:465(__iter__)
+     6138    0.005    0.000    0.016    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1380(degree)
+    25585    0.013    0.000    0.013    0.000 {method 'format' of 'str' objects}
+   103504    0.012    0.000    0.012    0.000 {method 'add' of 'set' objects}
+     6138    0.008    0.000    0.011    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:355(__init__)
+     6138    0.007    0.000    0.007    0.000 {built-in method builtins.min}
+    12276    0.003    0.000    0.003    0.000 {built-in method builtins.hasattr}
+        1    0.002    0.002    0.002    0.002 {built-in method io.open}
+     6138    0.002    0.000    0.002    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:362(__call__)
+     6138    0.001    0.000    0.002    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:181(__len__)
+      673    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:759(number_of_nodes)
+      132    0.000    0.000    0.000    0.000 {method 'write' of '_io.TextIOWrapper' objects}
+      132    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/codecs.py:327(reset)
+       20    0.000    0.000    0.000    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:202(<listcomp>)
+       13    0.000    0.000    0.000    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:54(extract_elements)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/_bootlocale.py:33(getpreferredencoding)
+        1    0.000    0.000    0.000    0.000 {built-in method _locale.nl_langinfo}
+      132    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/codecs.py:276(reset)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/codecs.py:309(__init__)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/codecs.py:260(__init__)
+       31    0.000    0.000    0.000    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1/python/script.py:55(<lambda>)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/codecs.py:186(__init__)
+
+

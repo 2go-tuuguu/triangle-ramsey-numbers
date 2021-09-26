@@ -1,0 +1,114 @@
+Short manual of triangleramsey
+------------------------------
+
+Author: Jan Goedgebeur (jan.goedgebeur@ugent.be)
+In collaboration with: Gunnar Brinkmann (gunnar.brinkmann@ugent.be)
+
+Triangleramsey is a program for the efficient generation of maximal triangle-free graphs. 
+Triangleramsey can also be used to generate triangle Ramsey graphs for a given testgraph efficiently.
+
+This program has been tested on Linux and Mac OS X.
+
+
+Installation
+------------
+
+The latest version of triangleramsey can be obtained from http://caagt.ugent.be/triangleramsey/
+
+First download, extract and configure nauty from http://cs.anu.edu.au/~bdm/nauty/
+Triangleramsey requires nauty 2.5 (or a more recent version).
+
+Then copy the following files to the triangleramsey directory:
+naugraph.c nautil.c nauty.c nauty.h naurng.c naurng.h schreier.c schreier.h sorttemplates.c
+
+You can make a triangleramsey binary using "make".
+If you want to generate graphs with more than 32 vertices, make a binary using "make 64bit".
+This "64-bit binary" can also be used to generate graphs with <= 32 vertices, but is (slightly) slower than the regular binary.
+
+
+Usage
+-----
+An overview of all options can also be found by executing "./triangleramsey -h".
+
+
+Usage: ./triangleramsey <number_of_vertices> [options]
+
+At least the number of vertices be specified.
+The generated graphs are written to stdout and are encoded in multicode format (see Appendix A).
+
+
+Possible options are:
+
+  n: No graphs will be output (i.e. the graphs are only counted).
+
+  file <filename>: Starts the generation process from the graphs in <filename>, 
+                   else the generation is started from P3.
+
+  ramsey <filename>: Generates ramseygraphs for the graph in <filename>.
+
+  write_all_ramseygraphs: Can only be used in combination with option 'ramsey'. 
+                          Generates all mtf ramseygraphs for the testgraph instead of 
+                          stopping when one ramseygraph was found.
+                          When this option is used, the ramseygraphs are written to
+                          a file instead of to stdout (unless if option 'n' is used).
+
+  mod <rest> <modulo>: Splits the generation in <modulo> (more or less equally big) parts.
+                       Here part <rest> will be executed. 
+                       Splitting the generation causes a small overhead, 
+                       so the sum of the timings for the small parts will be slightly more
+                       than the time needed to run the same case without modulo. 
+                       But this overhead is usually negligible compared to the 
+                       total execution time.
+                       The normal rules for modulo calculation apply. So m 0 2 will give 
+                       the same result as m 0 4 and m 2 4 combined.
+
+
+Examples
+--------
+
+"./triangleramsey 18 outputlevel 17"
+Generates all maximal triangle-free graphs with at most 18 vertices and outputs the graphs with at least 17 vertices to stdout.
+
+
+"./triangleramsey 21 mod 10 200"
+Splits the generation of all maximal triangle-free graphs with 21 vertices into 200 (more or less equally big) parts and executes part 10.
+
+
+"./triangleramsey 25 ramsey testgraph.mc"
+Tries to generate a triangle Ramsey graph with 25 vertices for the graph in "testgraph.mc.
+The program stops as soon as a Ramsey graph was found. The program writes 1 to stdout if no Ramsey graph was found.
+
+
+"./triangleramsey 25 ramsey testgraph.mc write_all_ramseygraphs"
+Generates all mtf triangle Ramsey graphs with 25 vertices for the graph in "testgraph.mc.
+The Ramsey graphs are written to "Ramseygraphs_25_testgraph.mc".
+The program writes 1 to stdout if no Ramsey graphs were found.
+
+
+"./triangleramsey 25 ramsey testgraph.mc write_all_ramseygraphs file inputgraphs.mc"
+Generates all mtf triangle Ramsey graphs with 25 vertices for the graph in "testgraph.mc.
+The construction is started from the graphs in inputgraphs.mc instead of from P3.
+
+
+
+Don't hesitate to contact me at jan.goedgebeur@ugent.be if you have any further questions or suggestions.
+
+
+Changelog
+---------
+
+2012-06-28: First release.
+2017-07-06: Fixed rare bug wrt "write_all_ramseygraphs" option reported by Manfred Scheucher.
+
+
+Appendix A: definition of the multicode format
+----------------------------------------------
+This code is binary. The first entry is the number of vertices.
+Vertices are numbered 1,...,n. For each vertex x there is a list of
+neighbours with higher labels than x, followed by a zero.
+The last list is always empty (there are no neighbours of n with a higher number than n),
+therefore the last "list" is not followed by a zero.
+After the last byte the next graph follows.
+
+The codelength of a graph in multicode is number of vertices + number of edges.
+

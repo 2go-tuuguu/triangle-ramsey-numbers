@@ -1,0 +1,190 @@
+         61546830 function calls (55431462 primitive calls) in 44.456 seconds
+
+   Ordered by: internal time
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     3713   16.761    0.005   16.761    0.005 {built-in method posix.waitpid}
+     3713    7.411    0.002    7.411    0.002 {built-in method _posixsubprocess.fork_exec}
+4053322/36558    2.526    0.000    5.489    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/copy.py:132(deepcopy)
+     3713    2.397    0.001    2.397    0.001 {built-in method posix.read}
+1297550/36558    1.151    0.000    5.088    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/copy.py:237(_deepcopy_dict)
+770058/9266    0.755    0.000    1.000    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:20(choose_sublists)
+  1533557    0.640    0.000    2.856    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:54(<genexpr>)
+  9900745    0.621    0.000    0.621    0.000 {method 'get' of 'dict' objects}
+ 4176/480    0.589    0.000   44.436    0.093 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:68(find_e)
+  1496999    0.478    0.000    1.591    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:452(__getitem__)
+   373199    0.459    0.000    3.806    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:22(_generate_graph6_bytes)
+    54153    0.457    0.000    0.604    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:526(add_nodes_from)
+     3713    0.445    0.000   10.359    0.003 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:1412(_execute_child)
+  1496999    0.423    0.000    0.625    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/_collections_abc.py:664(__contains__)
+    36558    0.422    0.000    1.141    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:895(add_edges_from)
+  1496999    0.420    0.000    0.558    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/coreviews.py:81(__getitem__)
+     3713    0.400    0.000   10.868    0.003 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:681(__init__)
+  1370666    0.396    0.000    0.528    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/copy.py:253(_keep_alive)
+  1496999    0.388    0.000    0.554    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:338(adj)
+   358779    0.385    0.000    0.528    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:36(check)
+     7426    0.368    0.000    0.368    0.000 {built-in method io.open}
+  2993998    0.305    0.000    0.305    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/coreviews.py:44(__init__)
+  6831221    0.302    0.000    0.302    0.000 {built-in method builtins.id}
+    17595    0.283    0.000    1.068    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:63(from_graph6_bytes)
+   454926    0.232    0.000    0.294    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:783(__iter__)
+  1741113    0.230    0.000    0.660    0.000 {method 'update' of 'dict' objects}
+   454926    0.216    0.000    0.583    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/relabel.py:217(<genexpr>)
+   224413    0.211    0.000    0.249    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:827(add_edge)
+  1496999    0.202    0.000    0.202    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/coreviews.py:53(__getitem__)
+  1760524    0.196    0.000    0.196    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:57(<genexpr>)
+  4024074    0.194    0.000    0.194    0.000 {method 'append' of 'list' objects}
+    36558    0.186    0.000    2.430    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/relabel.py:191(_relabel_copy)
+     3713    0.183    0.000   28.045    0.008 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:447(run)
+   264005    0.156    0.000    0.356    0.000 {built-in method builtins.sum}
+   384754    0.150    0.000    0.429    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/relabel.py:194(<genexpr>)
+73116/36558    0.136    0.000    5.304    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/copy.py:269(_reconstruct)
+  1229027    0.132    0.000    0.132    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1173(has_edge)
+  2227730    0.119    0.000    0.119    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/copy.py:190(_deepcopy_atomic)
+   740435    0.115    0.000    0.115    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:101(bits)
+  1682304    0.111    0.000    0.111    0.000 {method 'items' of 'dict' objects}
+2176145/2139587    0.110    0.000    0.119    0.000 {built-in method builtins.len}
+    54227    0.107    0.000    0.118    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:289(__init__)
+     3713    0.107    0.000    5.668    0.002 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:53(get_all_one_edge_removed)
+   384754    0.103    0.000    0.233    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/_collections_abc.py:742(__iter__)
+     3713    0.098    0.000    1.174    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:183(read_graph6)
+    36558    0.093    0.000    2.606    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/relabel.py:224(convert_node_labels_to_integers)
+     9266    0.090    0.000    1.660    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:46(has_ind_set_k)
+    17595    0.086    0.000    0.086    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:124(<listcomp>)
+   348196    0.084    0.000    0.118    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:187(__getitem__)
+     3713    0.082    0.000   28.135    0.008 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:64(nauty_isomorphs)
+   118940    0.077    0.000    0.103    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:661(nodes)
+     7426    0.076    0.000   16.863    0.002 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:1621(_wait)
+     3713    0.074    0.000    0.074    0.000 {built-in method posix.open}
+   384754    0.070    0.000    0.094    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/relabel.py:193(<genexpr>)
+    36558    0.069    0.000    6.603    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:131(to_graph6_bytes)
+   300083    0.064    0.000    0.064    0.000 {built-in method builtins.chr}
+     3713    0.063    0.000    0.063    0.000 {method 'close' of '_io.BufferedReader' objects}
+   760792    0.062    0.000    0.062    0.000 {method 'extend' of 'list' objects}
+   483886    0.062    0.000    0.062    0.000 {built-in method builtins.isinstance}
+    73116    0.059    0.000    0.068    0.000 {method '__reduce_ex__' of 'object' objects}
+   303796    0.050    0.000    0.050    0.000 {method 'encode' of 'str' objects}
+     3713    0.050    0.000    0.272    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:174(_open_file)
+   766564    0.047    0.000    0.047    0.000 {method 'copy' of 'dict' objects}
+    36558    0.045    0.000    3.851    0.000 {method 'join' of 'bytes' objects}
+     3713    0.045    0.000    0.049    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:847(__exit__)
+    11139    0.044    0.000    0.044    0.000 {built-in method posix.close}
+     3713    0.039    0.000    0.073    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/posixpath.py:121(splitext)
+     3713    0.039    0.000   16.923    0.005 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:920(communicate)
+    36558    0.037    0.000    0.037    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:698(__init__)
+   418368    0.036    0.000    0.036    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:712(<lambda>)
+    36558    0.036    0.000    0.073    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:1035(__call__)
+    36558    0.033    0.000    0.038    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:1003(__init__)
+   149945    0.032    0.000    0.032    0.000 {built-in method builtins.getattr}
+   147974    0.032    0.000    0.032    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:26(<listcomp>)
+    73116    0.032    0.000    0.041    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/copyreg.py:87(__newobj__)
+     3713    0.032    0.000    1.547    0.000 <class 'networkx.utils.decorators.argmap'> compilation 5:1(argmap_read_graph6_1)
+    40271    0.029    0.000    0.053    0.000 {built-in method builtins.sorted}
+   118940    0.029    0.000    0.044    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:184(__iter__)
+    36558    0.028    0.000    0.066    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1257(edges)
+   118940    0.026    0.000    0.026    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:177(__init__)
+     7426    0.025    0.000   16.888    0.002 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:1014(wait)
+   146232    0.024    0.000    0.110    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/copy.py:274(<genexpr>)
+    36558    0.023    0.000    0.036    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/_collections_abc.py:676(items)
+     3713    0.021    0.000    0.026    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/genericpath.py:121(_splitext)
+   155498    0.020    0.000    0.020    0.000 {built-in method builtins.iter}
+   150911    0.019    0.000    0.019    0.000 {built-in method builtins.hasattr}
+    36558    0.019    0.000    2.454    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/relabel.py:6(relabel_nodes)
+     3713    0.019    0.000    0.019    0.000 {built-in method posix.pipe}
+    17595    0.018    0.000    0.018    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:111(<listcomp>)
+    17595    0.016    0.000    0.032    0.000 {built-in method builtins.any}
+   162463    0.016    0.000    0.016    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:112(<genexpr>)
+     3713    0.015    0.000    0.090    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:890(_get_devnull)
+     3713    0.015    0.000    0.030    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/posixpath.py:154(dirname)
+     3713    0.015    0.000   16.776    0.005 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:1608(_try_wait)
+    36631    0.013    0.000    0.016    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:759(number_of_nodes)
+    36558    0.013    0.000    0.013    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:990(remove_edge)
+    36558    0.013    0.000    0.013    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/_collections_abc.py:698(__init__)
+     3713    0.012    0.000    0.014    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:988(poll)
+   109674    0.012    0.000    0.012    0.000 {built-in method builtins.issubclass}
+    36558    0.011    0.000    0.011    0.000 {method 'write' of '_io.BufferedWriter' objects}
+    45824    0.011    0.000    0.014    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:181(__len__)
+    73117    0.009    0.000    0.009    0.000 {built-in method __new__ of type object at 0x1052a93a8}
+    73116    0.009    0.000    0.009    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:204(__call__)
+    36558    0.009    0.000    0.009    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:171(__getstate__)
+    36558    0.009    0.000    0.011    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:430(__len__)
+    36558    0.008    0.000    0.013    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:398(__iter__)
+        1    0.008    0.008   44.456   44.456 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:110(main)
+     3713    0.007    0.000    0.007    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:240(_cleanup)
+    17595    0.007    0.000    0.007    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:372(data_to_n)
+    36558    0.007    0.000    0.007    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:174(__setstate__)
+     3713    0.007    0.000    0.007    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:875(__del__)
+     3713    0.007    0.000    0.007    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:425(__init__)
+    36558    0.006    0.000    0.006    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/readwrite/graph6.py:392(n_to_data)
+     3713    0.006    0.000    0.069    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:189(<lambda>)
+     3713    0.006    0.000    0.096    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:1358(_get_handles)
+     3713    0.006    0.000    0.006    0.000 {built-in method _thread.allocate_lock}
+     3713    0.006    0.000    0.011    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:1555(_handle_exitstatus)
+     3713    0.005    0.000    0.005    0.000 {method 'rstrip' of 'bytes' objects}
+     3713    0.005    0.000    0.005    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/posixpath.py:41(_get_sep)
+     7426    0.005    0.000    0.005    0.000 {method 'rfind' of 'str' objects}
+    17595    0.005    0.000    0.005    0.000 {method 'startswith' of 'bytes' objects}
+    36558    0.004    0.000    0.004    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1454(is_multigraph)
+     3713    0.004    0.000    0.004    0.000 {built-in method posix.WIFSIGNALED}
+    17595    0.004    0.000    0.004    0.000 {method 'strip' of 'bytes' objects}
+     3713    0.003    0.000    0.005    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/os.py:806(fsencode)
+     3713    0.003    0.000    0.003    0.000 {method 'rfind' of 'bytes' objects}
+      480    0.003    0.000    0.009    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1768(size)
+    11139    0.002    0.000    0.002    0.000 {built-in method posix.fspath}
+     6416    0.002    0.000    0.002    0.000 {method 'add' of 'set' objects}
+     4818    0.002    0.000    0.002    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:465(__iter__)
+     7426    0.002    0.000    0.002    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:1573(_internal_poll)
+     3713    0.001    0.000    0.001    0.000 {method 'count' of 'list' objects}
+      480    0.001    0.000    0.003    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1380(degree)
+      480    0.001    0.000    0.001    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:355(__init__)
+     3713    0.001    0.000    0.001    0.000 {built-in method posix.WEXITSTATUS}
+     4818    0.001    0.000    0.003    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/graph.py:1804(<genexpr>)
+     3713    0.001    0.000    0.001    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/subprocess.py:844(__enter__)
+     3713    0.001    0.000    0.001    0.000 {built-in method posix.WIFEXITED}
+      480    0.000    0.000    0.000    0.000 {built-in method builtins.min}
+       65    0.000    0.000    0.000    0.000 {method 'format' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.compile}
+       72    0.000    0.000    0.000    0.000 {built-in method builtins.print}
+      480    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/classes/reportviews.py:362(__call__)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2117(_signature_from_function)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:1062(signature)
+       20    0.000    0.000    0.000    0.000 /Users/tuguldur/University/Summer practice/Programming/triangleramsey-1.1 2/python/script.py:121(<listcomp>)
+        1    0.000    0.000    0.001    0.001 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:872(compile)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2198(_signature_from_callable)
+        4    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:852(_name)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2750(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2467(__init__)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/copyreg.py:96(_slotnames)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:920(assemble)
+        1    0.000    0.000    0.001    0.001 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:794(func)
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'mappingproxy' objects}
+     17/9    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:1165(_flatten)
+        4    0.000    0.000    0.000    0.000 {method 'sub' of 're.Pattern' objects}
+        4    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/re.py:273(_compile)
+        1    0.000    0.000    0.001    0.001 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:719(_lazy_compile)
+        9    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:1195(_indent)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:3081(signature)
+        4    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/re.py:187(sub)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/enum.py:289(__call__)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2829(from_callable)
+        5    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:829(_count)
+        3    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:1011(get_name)
+        2    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2799(<genexpr>)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/enum.py:531(__new__)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:171(isgeneratorfunction)
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2529(kind)
+        1    0.000    0.000    0.000    0.000 {method 'get' of 'mappingproxy' objects}
+        1    0.000    0.000    0.000    0.000 {method 'isidentifier' of 'str' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.exec}
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/site-packages/networkx/utils/decorators.py:96(<lambda>)
+        3    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:158(isfunction)
+        1    0.000    0.000    0.000    0.000 <string>:1(__new__)
+        1    0.000    0.000    0.000    0.000 <class 'networkx.utils.decorators.argmap'> compilation 5:1(<module>)
+        1    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
+        1    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
+        4    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2517(name)
+        1    0.000    0.000    0.000    0.000 /Users/tuguldur/opt/anaconda3/lib/python3.7/inspect.py:2835(parameters)
+
+
